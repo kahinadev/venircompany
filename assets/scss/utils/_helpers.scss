@@ -1,0 +1,11 @@
+.uppercase {
+    @include uppercase;
+}
+
+.radius {
+    border-radius: $radius;
+}
+
+.max {
+    width: 100%;
+}

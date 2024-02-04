@@ -1,0 +1,44 @@
+.contact-ti {
+    .content-contact {
+        width: 55%;
+        position: absolute;
+
+        @media screen and (max-width: $mobile) {
+            width: 100% !important;
+            margin-left: -8%;
+        }
+
+        @media screen and (max-width: $tablet-m) {
+            width: 85%;
+        }
+
+        h1 {
+            @include border;
+        }
+    }
+}
+
+.contact {
+    form {
+        margin-top: 10%;
+
+        @media screen and (max-width: $mobile) {
+            margin-top: 50%;
+        }
+
+        h2,
+        h3 {
+            font-size: 25px;
+
+            @media screen and (max-width: $mobile) {
+                font-size: 20px !important;
+            }
+        }
+
+        input,
+        select,
+        textarea {
+            @include contact;
+        }
+    }
+}

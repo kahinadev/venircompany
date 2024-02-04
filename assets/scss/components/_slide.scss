@@ -1,0 +1,57 @@
+.indicators {
+    bottom: -40px;
+    text-align: center;
+    position: relative;
+
+    .btn {
+        width: 200px;
+        height: 10px !important;
+        border: none !important;
+        background-color: $white;
+
+        @media screen and (max-width: $mobile) {
+            width: 80px;
+        }
+    }
+}
+
+.slide-pills {
+    margin-top: 5%;
+
+    .nav-pills {
+        .nav-link {
+            padding: 0px 0px 30px 20px;
+            transition: $sec5;
+
+            @media screen and (max-width: $mobile) {
+                padding: 0px;
+            }
+
+            img {
+                opacity: 0.5;
+            }
+        }
+
+        .nav-link.active {
+            background-color: transparent !important;
+
+            img {
+                opacity: 1;
+            }
+        }
+    }
+
+    .card {
+        background-color: transparent;
+    }
+
+    h4 {
+        padding: 20px;
+    }
+
+    .card {
+        @media screen and (max-width: $mobile) {
+            padding: 20px 0px !important;
+        }
+    }
+}

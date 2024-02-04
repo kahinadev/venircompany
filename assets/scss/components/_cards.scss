@@ -1,0 +1,43 @@
+.card {
+    padding: 40px;
+    border: none;
+
+    @media screen and (max-width: $mobile) {
+        margin-bottom: 10px;
+    }
+
+    h2 {
+        font-size: 30px !important;
+    }
+
+    h3,
+    h4 {
+        font-size: 20px !important;
+    }
+    
+    h3 {
+        text-transform: inherit;
+    }
+
+    p {
+        margin-top: 20px;
+    }
+}
+
+.card-service,
+.card-review {
+    .subtitle {
+        @include border;
+    }
+}
+
+.card-review {
+    .name {
+        font-size: 18px;
+        font-family: $subtitle;
+    }
+
+    h3 {
+        text-transform: uppercase !important;
+    }
+}

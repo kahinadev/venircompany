@@ -1,0 +1,66 @@
+@import "../bases/colors.scss";
+@import "../utils/mixins.scss";
+@import "../utils/variables.scss";
+
+
+$subtitle: 'Arapey', serif;
+$title: 'Arimo', sans-serif;
+$text: 'Mulish', sans-serif;
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-weight: 800;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-family: $title;
+}
+
+h1 {
+    font-size: 70px;
+
+    @media screen and (max-width: $mobile) {
+        font-size: 36px !important;
+    }
+
+    @media screen and (max-width: $tablet-m){
+        font-size: 55px;
+    }
+}
+
+h2 {
+    font-size: 60px;
+
+    @media screen and (max-width: $mobile) {
+        font-size: 35px !important;
+    }
+}
+
+h3 {
+    font-size: 50px;
+
+    @media screen and (max-width: $mobile) {
+        font-size: 30px !important;
+    }
+}
+
+h4 {
+    font-size: 40px;
+}
+
+p,
+a {
+    font-size: 20px;
+    @include text;
+    strong {
+        font-weight: 700;
+    }
+}
+
+.subtitle {
+    font-size: 23px;
+    font-weight: 800;
+    font-family: $subtitle;
+}

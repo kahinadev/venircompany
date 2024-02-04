@@ -1,0 +1,51 @@
+$blue-one: #2f4855;
+$blue-second: #4a86a8;
+$beige: #e8dabe;
+$orange: #dca456;
+$white: #eff1f3;
+
+$ohter: #18323e;
+
+.blue-one {
+    color: $blue-one;
+}
+
+.blue-second {
+    color: $blue-second;
+}
+
+.beige {
+    color: $beige !important;
+}
+
+.orange {
+    color: $orange !important;
+}
+
+.white {
+    color: $white !important;
+}
+
+.bg-blue-one {
+    background-color: $blue-one;
+}
+
+.bg-blue-second {
+    background-color: $blue-second;
+}
+
+.bg-beige {
+    background-color: $beige;
+}
+
+.bg-white {
+    background-color: $white !important;
+}
+
+.bg-orange {
+    background-color: $orange !important;
+}
+
+.bg-other {
+    background-color: $ohter;
+}

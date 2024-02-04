@@ -1,0 +1,40 @@
+@mixin uppercase {
+    letter-spacing: 0.3px;
+    text-transform: uppercase;
+}
+
+@mixin text {
+    font-weight: 300;
+    text-align: justify;
+    font-family: $text;
+}
+
+@mixin border {
+    padding-bottom: 10px;
+    border-bottom: $border;
+}
+
+@mixin contact {
+    width: 100%;
+    color: $white;
+    border: $border;
+    font-weight: 600;
+    padding: 15px 20px;
+    background-color: transparent;
+    font-family: $text;
+
+    &::placeholder {
+        color: $white;
+    }
+
+    &:hover,
+    &:focus,
+    &:active {
+        color: $blue-one;
+        background-color: beige;
+
+        &::placeholder {
+            color: $blue-one;
+        }
+    }
+}

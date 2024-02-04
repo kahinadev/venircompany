@@ -1,0 +1,55 @@
+.intro-about {
+    @media screen and (max-width: $mobile) {
+        padding-bottom: 0px !important;
+    }
+
+    .transport {
+        top: 80px;
+        width: 30%;
+        height: 880px;
+        position: absolute;
+
+        @media screen and (max-width: $mobile) {
+            margin-left: 0% !important;
+        }
+
+        @media screen and (max-width: $tablet-m) {
+            width: 36%;
+            margin-left: -8%;
+        }
+    }
+
+    .content-intro {
+        margin: 20% 0;
+
+        @media screen and (max-width: $mobile) {
+            margin: 40% 0;
+
+            p {
+                padding-left: 40px;
+            }
+        }
+
+        @media screen and (max-width: $tablet-m) {
+            padding-left: 20px;
+        }
+    }
+}
+
+.entreprise,
+.qualities {
+    .content-entreprise {
+        padding: 40px;
+
+        @media screen and (max-width: $mobile) {
+            margin-top: 5%;
+        }
+    }
+
+    h2,
+    h3 {
+        @media screen and (max-width: $mobile) {
+            margin: 5% 0 0% 0%;
+        }
+    }
+}

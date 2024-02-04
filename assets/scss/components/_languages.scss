@@ -1,0 +1,14 @@
+.languages {
+    position: fixed;
+    left: 20px;
+    bottom: 20px;
+    padding: 10px;
+    border-radius: $radius;
+    background-color: $blue-one;
+    
+    .a-lang {
+        color: $white;
+        font-size: 15px;
+        font-weight: 600;
+    }
+}

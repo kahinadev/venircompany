@@ -1,0 +1,16 @@
+.projets-ti {
+    padding-bottom: 0px !important;
+
+    h1 {
+        margin-top: 5%;
+    }
+}
+
+.projets {
+    .card {
+        @media screen and (max-width: $tablet-m) {
+            padding: 0px !important;
+            margin-bottom: 10% !important;
+        }
+    }
+}

@@ -1,0 +1,95 @@
+.banner-truck {
+    height: 930px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: top center;
+    background-image: url("../../assets/img/banner/banner-truck.png");
+
+    @media screen and (max-width: $mobile) {
+        height: 600px !important;
+        background-position: inherit !important;
+    }
+
+    h1 {
+        margin-top: 15%;
+
+        @media screen and (max-width: $mobile) {
+            margin-top: 25%;
+        }
+    }
+
+}
+
+.avantages {
+    .infos-services {
+        margin-top: -14%;
+
+        @media screen and (max-width: $mobile) {
+            margin-top: -54% !important;
+        }
+
+        @media screen and (max-width: $tablet-m) {
+            margin-top: -34%;
+        }
+    }
+}
+
+.presentation {
+    .slide {
+        margin-left: -12%;
+        margin-right: -9%;
+
+        @media screen and (max-width: $tablet-m) {
+            margin-top: 10%;
+        }
+    }
+
+    .content {
+        p {
+            padding-right: 20%;
+
+            @media screen and (max-width: $mobile) {
+                padding-right: 0%;
+            }
+        }
+    }
+
+    .cnt-img {
+        position: relative;
+
+        @media screen and (max-width: $mobile) {
+            margin-left: 7% !important;
+        }
+
+        @media screen and (max-width: $tablet-m) {
+            margin-left: 15%;
+        }
+
+        img {
+            width: 71%;
+            margin-top: 6%;
+            margin-bottom: 4%;
+
+            @media screen and (max-width: $mobile) {
+                margin-top: 10% !important;
+                margin-left: 0% !important;
+            }
+        }
+    }
+}
+
+.projets {
+    .text-end {
+        @media screen and (max-width: $mobile) {
+            margin: 10% 0;
+            text-align: center !important;
+        }
+    }
+}
+
+.reviews {
+    .card {
+        margin-top: 5%;
+    }
+}

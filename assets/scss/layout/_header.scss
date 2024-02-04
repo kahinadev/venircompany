@@ -1,0 +1,108 @@
+.header {
+    width: 100%;
+    position: absolute;
+
+    .logo {
+        width: 40%;
+
+        @media screen and (max-width: $mobile) {
+            width: 15%;
+            margin-top: -10px;
+        }
+    }
+
+    .nav-link {
+        color: $white;
+        font-weight: 500;
+        transition: $sec5;
+        font-family: $text;
+
+        &:hover,
+        &:focus,
+        &:active {
+            color: $orange;
+        }
+    }
+
+    .nav-link.active {
+        color: $orange;
+        font-weight: 700;
+    }
+
+    .navbar-toggler {
+        border: none;
+
+        .toggler-icon {
+            color: $orange;
+        }
+
+        @media screen and (max-width: $mobile) {
+            top: 18px;
+            right: 10px !important;
+            position: absolute;
+        }
+    }
+
+    .btn-search-fir {
+        display: none;
+        
+        @media screen and (max-width: $mobile) {
+            top: 20px;
+            right: 20px;
+            position: absolute;
+        }
+        
+        @media screen and (max-width: $tablet-m) {
+            display: block !important;
+        }
+    }
+
+    .navbar-collapse {
+        @media screen and (max-width: $mobile) {
+            height: 80% !important;
+        }
+
+        @media screen and (max-width: $tablet-m) {
+            top: 0;
+            left: 0;
+            height: 50%;
+            width: 280px;
+            z-index: 90;
+            position: fixed;
+            transition: $sec5;
+            border-top-right-radius: $radius;
+            border-bottom-right-radius: $radius;
+            background-color: $white;
+
+            ul {
+                padding: 80px 20px;
+
+                .nav-link.active {
+                    text-align: left !important;
+                }
+
+                .nav-link.active {
+                    color: $orange;
+                }
+
+                .nav-link {
+                    color: $blue-one;
+                }
+            }
+
+            .btn-search {
+                display: none;
+            }
+        }
+    }
+}
+
+.header-ar {
+    .navbar-collapse {
+        @media screen and (max-width: $tablet-m) {
+            ul {
+                text-align: left !important;
+            }
+        }
+    }
+}
